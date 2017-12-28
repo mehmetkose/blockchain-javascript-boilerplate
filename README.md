@@ -1,2 +1,7 @@
-# blockchain-javascript-ornegi
-ES6 Blockchain Örneği
+# blockchain-javascript-boilerplate
+ES6 Blockchain Boilerplate
+
+## Dependencies
+
+### Nexe
+npm i nexe -g
