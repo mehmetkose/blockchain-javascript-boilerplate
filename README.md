@@ -3,5 +3,12 @@ ES6 Blockchain Boilerplate
 
 ## Dependencies
 
-### Nexe
-npm i nexe -g
+### Install Nexe and yarn
+npm i nexe yarn -g
+
+### Dev Dependencies
+yarn
+
+## Build
+yarn compile
+
