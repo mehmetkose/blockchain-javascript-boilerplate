@@ -1,12 +1,14 @@
 
 import blockchain from './blockchain'
 
-let fupioChain = new blockchain.Chain()
-fupioChain.addBlock(new blockchain.Block(1, Date.now(), {"hello":"world2"}))
-fupioChain.addBlock(new blockchain.Block(2, Date.now(), {"hello":"world3"}))
+let testChain = new blockchain.Chain()
+testChain.addBlock(new blockchain.Block(1, Date.now(), {"hello":"world2"}))
+testChain.addBlock(new blockchain.Block(2, Date.now(), {"hello":"world3"}))
 
-for (let block of fupioChain.chain) {
+console.log("List Blocks:")
+for (let block of testChain.chain) {
     console.log(JSON.stringify(block))
 }
 
-console.log(fupioChain.isChainValid())
+console.log("Chain is Valid:")
+console.log(testChain.isChainValid())
